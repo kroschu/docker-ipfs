@@ -4,7 +4,7 @@
 # Data is stored under /root/.ipfs/
 
 
-FROM golang:1.10
+FROM  arm32v7/golang
 LABEL maintainer "Baohua Yang <yangbaohua@gmail.com>"
 
 ENV DEBIAN_FRONTEND noninteractive
